@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-color: lightgray;
+    padding: .1em 0em;
+    
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+@media (max-width: 400px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+nav li {
+    margin: 0 1.5em;
+    font-size: .9rem;
+}
+
+@media (max-width: 768px) {
+    nav li {
+        margin: .3em 0;
+    }
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 50;
+    font-family: 'Khula';
+}
+
+nav a:hover,
+nav a:focus {
+    color: darkgray;
+}
+
+.current-page {
+border-bottom: 1.5px solid black;
+}
+
+.current-page:hover {
+    color: black;
+}
+
+.top-container {
+    text-align: center;
+}
+
+.name {
+    position: absolute;
+    left: 17.68%;
+    right: 17.77%;
+    top: 20%;
+    bottom: 79.87%;
+
+    font-family: Kaushan Script;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.5rem;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.name-under{
+    position: absolute;
+    left: 21.58%;
+    right: 21.58%;
+    top: 55%;
+    bottom: 68.27%;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+}
+
+.expand-img {
+    max-width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.p2 {
+    text-align: justify;
+    font-size: 5rem;
+}
+
+.page-container {
+    margin: 8em auto;
+    display: flex;
+    max-width: 98%;
+    justify-content: center;
+}
+
+.dp-img {
+    max-width: 30em;
+}
+
+.col-1 {
+    width: 40%;
+    margin: 0 5em;
+}
+
+.col-2 {
+    width: 50%;
+    margin: 0 5em;
+    justify-content: center;
+    line-height: 2;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.title-about-me {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 2.5rem;
+}
+
+@media (max-width: 1210px) {
+    .page-container {
+        margin: 2em 0em;
+    }
+
+    .col-1 {
+        margin: 0 1em;
+    }
+
+    .col-2 {
+        margin: 0 0em;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .page-container {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .col-1 {
+        width: 90%;
+        align-self: center;
+    }
+
+    .col-2 {
+        width: 90%;
+        align-self: center;
+    }
+
+    .dp-img {
+        max-width: 20.2em;
+    }
+}
+
+.title-skills {
+        text-align: center;
+        font-family: 'Lato';
+        font-size: 2.5rem;
+}
+
+.skills-languages {
+    text-align: center;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+.title-other-skills {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 2.5rem;
+}
+
+.other-skills {
+    text-align: center;
+    line-height: 2.5;
+    font-size: 1.5rem;
+}
+
+.title-education {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 2.5rem;
+}
+
+.education {
+    text-align: center;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+.title-other-education {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 2.5rem;
+}
+
+.other-education {
+    text-align: center;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-container {
+    background-color: #9dd7fb;
+    padding: 10px 0 5px;
+    text-align: center;
+}
+
+
+h5 {
+    font-family: 'Fira Sans';
+    letter-spacing: .2rem;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+
+h6 {
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 10;
+    letter-spacing: .2rem;
+    margin: 25px 0 0 25px;
+}
+
+.social-media-btn {
+    background-color: #9dd7fb;
+    border: 0ch;
+}
+
+.social-media-btn:hover {
+    background-color: #b6e1fc;
+}
+
+.facebook-img {
+    width: 60%;
+}
+
+
+.instagram-img {
+    width: 60%;
+}
+
+
+.snapchat-img {
+    width: 60%;
+}
+
+
+.pinterest-img {
+    width: 60%;
+}
+
+
+.twitter-img {
+    width: 60%;
+}
+
+
+.linkedin-img {
+    width: 60%;
+}
